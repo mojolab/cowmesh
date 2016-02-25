@@ -1,1 +1,1 @@
-{"hostname": "maa"}
+{"ips": [{"iface": "eth0", "ipaddr": "10.0.2.15"}, {"iface": "eth1", "ipaddr": "192.168.56.101"}, {"iface": "eth2", "ipaddr": "10.178.202.35"}], "hostname": "maa"}
