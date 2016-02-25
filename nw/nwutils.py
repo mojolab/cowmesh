@@ -50,10 +50,6 @@ def get_defaults(configfile):
 		defaults['iface']=config.get("defaults",'iface')
 		defaults['protocol']=config.get("defaults",'protocol')
 		defaults['context']=config.get("defaults","context")
-		addr=get_attr_for_iface(defaults['iface'],'addr')
-		display_name=get_attr_for_context(configfile,defaults['context'],'display_name')
-		defaults['status_uri']=config.get("defaults","status_uri").replace("<ADDR>",addr)
-		defaults['display_name']=display_name
 	return defaults
 1
 def get_contexts(configfile):

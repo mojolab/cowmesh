@@ -4,7 +4,7 @@ urls = (
     '/nw/status/base',"status_base",
     '/nw/status',"status_base",
     '/nw/status/ext',"status_ext",
-    '/nw/poke',"ref",
+    '/nw/poke',"poke",
     '/nw/rqi',"requester_info"
    )
 
@@ -45,7 +45,14 @@ class status_base:
 		statusfull=json.load(f)
 		f.close()
 		status={}
-		status['hostname']=statusfull['hostname']
+		defaultcontext=statusfull['defaults']['context']
+		defaultiface=statusfull['defaults']['iface']
+		defaultaddr=get_attr_for_iface(defaultiface,'addr')
+		defaultdisplay_name=get_attr_for_context(configfile,defaultcontext,'display_name')
+		defaultstatus_uri=get_attr_for_context(configfile,defaultcontext,'status_uri')
+		status['status_uri']=defaultstatus_uri.replace("<ADDR>",defaultaddr)
+		status['display_name']=defaultdisplay_name
+	
 		
 		return json.dumps(status)
 		#return json.dumps(status)
