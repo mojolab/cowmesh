@@ -1,2 +1,3 @@
-# cowmesh
-Community Owned Wireless Mesh Network Tools
+# COWMesh - Community Owned World Mesh Networks
+## Tools for community owned communication meshes
+  

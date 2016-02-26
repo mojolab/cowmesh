@@ -35,7 +35,6 @@ def get_attr_for_iface(iface,attr):
 			return interface[attr]
 	return None
 
-
 def get_status_for_default_context(configfile,statusfull):
 	status={}
 	defaultcontext=statusfull['defaults']['context']
@@ -46,6 +45,7 @@ def get_status_for_default_context(configfile,statusfull):
 	status['status_uri']=defaultstatus_uri.replace("<ADDR>",defaultaddr)
 	status['display_name']=defaultdisplay_name
 	return status
+	
 def get_status_full():
 	f=open("status","r")
 	statusfull=json.load(f)
@@ -67,7 +67,7 @@ def get_defaults(configfile):
 		defaults['protocol']=config.get("defaults",'protocol')
 		defaults['context']=config.get("defaults","context")
 	return defaults
-1
+
 def get_contexts(configfile):
 	contextlist=[]
 	if os.path.isfile(configfile):
