@@ -9,12 +9,18 @@
         -------
       |    |    |
     / /         \ \
+    
    /-/|(0) | (0)|\-\
+ 
       |         |
+ 
        |   |   |
+ 
         |o | o|
+ 
         -------
-            (|)
+ 
+           (|)
          
 -------------------------------------------------------
 While working with different kind of peer driven communication networks we realized that we need more tools that 
