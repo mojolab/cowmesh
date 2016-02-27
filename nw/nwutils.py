@@ -1,3 +1,4 @@
+#TODO Create State class and include all this inside it
 import json,os, ConfigParser
 
 protocols=['ip']
@@ -93,6 +94,9 @@ def get_peers(configfile):
 			peers.append(f.read())
 	return peers
 
+
+
+
 def get_attr_for_iface(iface,attr):
 	interfaces=get_interfaces()
 	for interface in interfaces:
@@ -107,6 +111,7 @@ def get_attr_for_context(configfile,ctxt,attr):
 			return context[attr]
 	return None
 
+
 def get_status_full():
 	f=open("status","r")
 	statusfull=json.load(f)
@@ -120,7 +125,7 @@ def get_status_for_default_context(configfile,statusfull):
 	defaultaddr=get_attr_for_iface(defaultiface,'addr')
 	defaultdisplay_name=get_attr_for_context(configfile,defaultcontext,'display_name')
 	defaultstatus_uri=get_attr_for_context(configfile,defaultcontext,'status_uri')
-	defaultuuid=get_attr_for_context(configfile,defaultcontext,"uuid")
+	defaultuuid=get_attr_for_context(configfile,defaultcontext,"uuid").
 	status['status_uri']=defaultstatus_uri.replace("<ADDR>",defaultaddr)
 	status['display_name']=defaultdisplay_name
 	status['uuid']=defaultuuid
