@@ -1,4 +1,4 @@
-#TODO 
+#TODO Instantiate State object and expose it's functionality via server 
 import os,sys,web,json
 from nwutils import *
 urls = (

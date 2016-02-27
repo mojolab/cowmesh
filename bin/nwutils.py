@@ -126,7 +126,7 @@ def get_status_for_default_context(configfile,statusfull):
 	defaultdisplay_name=get_attr_for_context(configfile,defaultcontext,'display_name')
 	defaultstatus_uri=get_attr_for_context(configfile,defaultcontext,'status_uri')
 	defaultuuid=get_attr_for_context(configfile,defaultcontext,"uuid").
-	status['status_uri']=defaultstatus_uri.replace("<ADDR>",defaultaddr)
+	status['status_uri']=defaultstatus_uri.replace("0.0.0.0",defaultaddr)
 	status['display_name']=defaultdisplay_name
 	status['uuid']=defaultuuid
 	status['peers']=statusfull['peers']
