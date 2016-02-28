@@ -11,12 +11,17 @@
     "local": {
         "display_name": "MAA", 
         "status_uri": "http://<ADDR>:8080/nw/status", 
-        "uuid": "1279bfce-0f19-4015-a0ee-5805ab3f6f16"
+        "uuid": "1279bfce-0f19-4015-a0ee-5805ab3f6f16",
         "uris": [
 					{
-						"uri_desc":"My Apache WebServer"
-						"uri":"http://0.0.0.0/
-		}
+						"uri_desc":"My Apache WebServer",
+						"uri":"http://0.0.0.0/"
+					},
+					{
+						"uri_desc":"My Apache WebServer Also",
+						"uri":"http://0.0.0.0/"
+					}
+				]
     }, 
     "localmesh": {
         "display_name": "maa"
@@ -24,5 +29,6 @@
     "system": {
         "neighbours_dir": "/opt/neighbours", 
         "peers_dir": "/opt/peers"
+        "state_file": "/opt/status"
     }
 }

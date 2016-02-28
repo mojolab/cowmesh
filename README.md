@@ -3,11 +3,10 @@
 
 --------------------------------------------------
 
-	 -/-         -\-
-	 -|-         -|- 
-	 -\-         -/-  
-	     -------
-	   |    |    |
+	 -/          -\-
+	 -||-       -||- 
+	 -\\-       -//-  
+	  _|||||||||||_
 	 / /         \ \
 	/-/|(0) | (0)|\-\
 	   |         |
@@ -40,4 +39,4 @@ A mechanism for a Stateful system to expose some or all of its State to another 
 ###Context
 A Stateful system may not wish to use the same Interfaces or expose the same State to all other Systems. Context is a construct that allows a Stateful system to define boundaries to its exposure to other systems. 
 
-
+###
