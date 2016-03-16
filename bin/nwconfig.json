@@ -28,7 +28,7 @@
     }, 
     "system": {
         "neighbours_dir": "/opt/neighbours", 
-        "peers_dir": "/opt/peers"
+        "peers_dir": "/opt/peers",
         "state_file": "/opt/status"
     }
 }
