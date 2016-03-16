@@ -14,7 +14,7 @@ if __name__=="__main__":
 			os.system("sudo umount %s" %mountpath)
 		if os.path.isdir(mountpath):
 			os.rmdir(mountpath)
-		os.system("sudo mount %s %s -o uid=www-data,gid=www-data" %(devtoshare,dirtoshare)) 
+		
 
 
 
