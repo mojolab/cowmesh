@@ -1,13 +1,18 @@
 #!/usr/bin/python
-import os,sys
+import os,sys,copy
 
 automountdir="/media"
 
 if __name__=="__main__":
 	mediadirs=os.listdir(automountdir)
-	dirstoshare=mediadirs
-	for directory in dirstoshare:
-		dirtoshare=os.path.join(automountdir,directory)
+	excludedirs=["csv","cowmesh"]
+	dirstoshare=copy.copy(mediadirs)
+	
+	for direc in excludedirs:
+		if direc in mediadirs:
+			dirstoshare.remove(direc)
+	for dirtoshare in dirstoshare:
+		dirtoshare=os.path.join(automountdir,dirtoshare)
 		devtoshare=os.popen("sudo mount | grep '%s'" %dirtoshare).read().strip().split(" ")[0]
 		print dirtoshare,devtoshare 
 		os.system("sudo umount %s" %dirtoshare)
