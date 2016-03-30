@@ -1,12 +1,13 @@
 import json,os,sys
 from utils import *
+from interfaces import *
 class State:
 	def __init__(self):
 		self.content={}
 	
 	#Show own content
 	def show_content(self):
-		return prettydump(self.content)
+		return self.content
 	
 	#Load up a self image
 	def load_config(self,configfile):
@@ -36,19 +37,21 @@ class State:
 			f.close()
 	
 	def get_contexts(self):		
-		return {}			
+		return self.config["contexts"]			
 	
 	def get_defaults(self):		
-		return {}
+		return self.config["defaults"]
 	
-	def get_neighbours(self):		
-		return []
-	
+	def get_neighbours(self):
+		neighbours=os.listdir(self.config["system"]["neighbours_dir"])
+		return neighbours
+		
 	def get_peers(self):		
-		return []
-	
+		peers=os.listdir(self.config["system"]["peers_dir"])
+		return peers
 	def get_interfaces(self):
-		return []
+		interfaces=get_hw_interfaces()
+		return interfaces
 	
 	#Update self 
 	def update(self):
