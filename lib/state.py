@@ -9,6 +9,31 @@ class State:
 	def show_content(self):
 		return self.content
 	
+	def get_state_for_context(self,gcontext="default"):
+		self.update()
+		statusfull=self.content['status']
+		defaults=self.config['defaults']
+		contextstate={}
+		for iface in statusfull['interfaces']:
+			if iface['name']==defaults['iface']:
+				contextstate['addr']=iface['addr']
+		if gcontext=="default":
+			gcontext=defaults['context']
+		for context in statusfull['contexts']:
+			if context['context_name']==gcontext:
+				contextstate['display_name']=context['display_name']
+				if 'uris' in context.keys():
+					contextstate['uris']=[]
+					for uri in context['uris']:
+						contexturi={}
+						contexturi['uri']=uri['uri'].replace("<ADDR>",contextstate['addr'])
+						contexturi['uri_desc']=uri['uri_desc']
+						contextstate['uris'].append(contexturi)
+				if 'uuid' in context.keys():
+					contextstate['uuid']=context['uuid']
+		contextstate['status_uri']=defaults['status_uri'].replace("<ADDR>",contextstate['addr'])
+		contextstate['lastneighbours']=self.get_neighbours()
+		return contextstate
 	#Load up a self image
 	def load_config(self,configfile):
 		f=open(configfile,"r")

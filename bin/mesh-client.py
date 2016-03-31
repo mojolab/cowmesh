@@ -21,16 +21,15 @@ class requester_info:
 		return prettydump(requesterinfo)
 		
 class state_show:
-	def GET(self):
-		s.update()
-		statusfull=s.show_content()
+	def GET(self,context):
+		contextstate=s.get_state_for_context(gcontext=context)
 		s.touch(web.ctx.env.get("REMOTE_ADDR"))
 		#return json.dumps(statusfull)
-		return prettydump(statusfull)
+		return prettydump(contextstate)
 		
 
 urls = (
-    '/nw/state',"state_show",
+    '/nw/state/(.+)',"state_show",
     '/nw/rqi',"requester_info"
    )
 
