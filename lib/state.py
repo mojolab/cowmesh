@@ -22,12 +22,14 @@ class State:
 		f=open(status_file,"r")
 		self.content=json.load(f)
 		f.close()
-		
+	
+	# Write current state to file	
 	def write_state_file(self):
 		f=open(self.config['system']['state_file'],"w")
 		f.write(json.dumps(self.content))
 		f.close()
 	
+	# Write touch file for neighbour
 	def touch(self,neighbour,content=""):
 		neighbours_dir=self.config["system"]["neighbours_dir"]
 		os.system("touch %s" %os.path.join(neighbours_dir,neighbour))
@@ -36,24 +38,30 @@ class State:
 			f.write(content)
 			f.close()
 	
+	# Return contexts
 	def get_contexts(self):		
 		return self.config["contexts"]			
 	
+	# Return defaults
 	def get_defaults(self):		
 		return self.config["defaults"]
 	
+	# Return neighbours
 	def get_neighbours(self):
 		neighbours=os.listdir(self.config["system"]["neighbours_dir"])
 		return neighbours
 		
+	# Return peers
 	def get_peers(self):		
 		peers=os.listdir(self.config["system"]["peers_dir"])
 		return peers
+		
+	# Return interfaces
 	def get_interfaces(self):
 		interfaces=get_hw_interfaces()
 		return interfaces
 	
-	#Update self 
+	# Update self 
 	def update(self):
 		state={}
 		interfaces=self.get_interfaces()
