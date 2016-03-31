@@ -5,7 +5,6 @@ from utils import *
 from state import *
 from nwutils import *
 
-
 configfile="/opt/nwconfig.json"
 s=State()
 s.load_config(configfile)
@@ -26,7 +25,6 @@ class state_show:
 		s.touch(web.ctx.env.get("REMOTE_ADDR"))
 		#return json.dumps(statusfull)
 		return prettydump(contextstate)
-		
 
 urls = (
     '/nw/state/(.+)',"state_show",
