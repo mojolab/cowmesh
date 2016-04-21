@@ -10,4 +10,4 @@ iptables -t nat -X
 iptables -t nat -F
 iptables -I INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
 iptables -I FORWARD  -m state --state RELATED,ESTABLISHED -j ACCEPT
-iptables -t nat -I POSTROUTING -o usb0 -j MASQUERADE
+iptables -t nat -I POSTROUTING -o $1 -j MASQUERADE
