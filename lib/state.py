@@ -1,13 +1,39 @@
 import json,os,sys
 from utils import *
+from interfaces import *
 class State:
 	def __init__(self):
 		self.content={}
 	
 	#Show own content
 	def show_content(self):
-		return prettydump(self.content)
+		return self.content
 	
+	def get_state_for_context(self,gcontext="default"):
+		self.update()
+		statusfull=self.content['status']
+		defaults=self.config['defaults']
+		contextstate={}
+		for iface in statusfull['interfaces']:
+			if iface['name']==defaults['iface']:
+				contextstate['addr']=iface['addr']
+		if gcontext=="default":
+			gcontext=defaults['context']
+		for context in statusfull['contexts']:
+			if context['context_name']==gcontext:
+				contextstate['display_name']=context['display_name']
+				if 'uris' in context.keys():
+					contextstate['uris']=[]
+					for uri in context['uris']:
+						contexturi={}
+						contexturi['uri']=uri['uri'].replace("<ADDR>",contextstate['addr'])
+						contexturi['uri_desc']=uri['uri_desc']
+						contextstate['uris'].append(contexturi)
+				if 'uuid' in context.keys():
+					contextstate['uuid']=context['uuid']
+		contextstate['status_uri']=defaults['status_uri'].replace("<ADDR>",contextstate['addr'])
+		contextstate['lastneighbours']=self.get_neighbours()
+		return contextstate
 	#Load up a self image
 	def load_config(self,configfile):
 		f=open(configfile,"r")
@@ -21,12 +47,14 @@ class State:
 		f=open(status_file,"r")
 		self.content=json.load(f)
 		f.close()
-		
+	
+	# Write current state to file	
 	def write_state_file(self):
 		f=open(self.config['system']['state_file'],"w")
 		f.write(json.dumps(self.content))
 		f.close()
 	
+	# Write touch file for neighbour
 	def touch(self,neighbour,content=""):
 		neighbours_dir=self.config["system"]["neighbours_dir"]
 		os.system("touch %s" %os.path.join(neighbours_dir,neighbour))
@@ -35,22 +63,30 @@ class State:
 			f.write(content)
 			f.close()
 	
+	# Return contexts
 	def get_contexts(self):		
-		return {}			
+		return self.config["contexts"]			
 	
+	# Return defaults
 	def get_defaults(self):		
-		return {}
+		return self.config["defaults"]
 	
-	def get_neighbours(self):		
-		return []
-	
+	# Return neighbours
+	def get_neighbours(self):
+		neighbours=os.listdir(self.config["system"]["neighbours_dir"])
+		return neighbours
+		
+	# Return peers
 	def get_peers(self):		
-		return []
-	
+		peers=os.listdir(self.config["system"]["peers_dir"])
+		return peers
+		
+	# Return interfaces
 	def get_interfaces(self):
-		return []
+		interfaces=get_hw_interfaces()
+		return interfaces
 	
-	#Update self 
+	# Update self 
 	def update(self):
 		state={}
 		interfaces=self.get_interfaces()
