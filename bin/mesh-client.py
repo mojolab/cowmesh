@@ -18,14 +18,16 @@ class requester_info:
 			requesterinfo[key]=str(web.ctx.env.get(key))
 		#return requesterinfo
 		s.touch(web.ctx.env.get("REMOTE_ADDR"),content=json.dumps(requesterinfo))
-		return json.dumps(requesterinfo)
+		return prettydump(requesterinfo)
 		
 class state_show:
 	def GET(self):
 		s.update()
 		statusfull=s.show_content()
 		s.touch(web.ctx.env.get("REMOTE_ADDR"))
-		return json.dumps(statusfull)
+		#return json.dumps(statusfull)
+		return prettydump(statusfull)
+		
 
 urls = (
     '/nw/state',"state_show",
