@@ -1,0 +1,1291 @@
+2016-09-27-17:00
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.27 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=4.39 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=5.53 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=15.1 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=5.48 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.79 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=4.23 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=8.63 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.90 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=4.11 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.95 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=4.83 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.79 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.97 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.40 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=6.44 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=5.60 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.53 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.39 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19033ms
+rtt min/avg/max/mdev = 3.393/5.235/15.141/2.640 ms
+2016-09-27-17:00
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.47 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.30 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=5.87 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=4.31 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=4.37 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=4.38 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.35 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=4.99 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=4.41 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=4.80 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.80 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=4.60 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=86.0 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=24.2 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=46.2 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=69.3 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=91.1 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=118 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.50 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.50 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19025ms
+rtt min/avg/max/mdev = 3.475/24.808/118.368/35.516 ms
+2016-09-27-17:27
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=2.83 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=2.66 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=4.53 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=2.75 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=5.95 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=2.67 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=7.48 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.14 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=2.89 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.16 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=130 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=88.8 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=110 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=2.62 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=4.90 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.10 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=4.36 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=5.79 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.16 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.25 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19028ms
+rtt min/avg/max/mdev = 2.621/19.723/130.260/38.391 ms
+2016-09-27-18:34
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=7.15 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.33 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=5.77 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=4.08 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=4.27 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=6.48 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.78 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=4.43 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.76 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.83 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.76 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.83 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.25 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.86 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=6.80 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.80 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.80 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=5.68 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.45 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.45 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19032ms
+rtt min/avg/max/mdev = 3.259/4.532/7.155/1.157 ms
+2016-09-27-18:50
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=7.85 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.55 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.09 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.25 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.10 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=6.64 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.11 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.06 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=4.59 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.10 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=4.51 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.04 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.02 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.11 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=7.07 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.14 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.13 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.08 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=4.07 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=4.92 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19025ms
+rtt min/avg/max/mdev = 3.020/4.075/7.854/1.460 ms
+2016-09-27-22:28
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=2.86 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=2.66 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=2.69 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=8.30 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.22 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.19 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.17 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=4.50 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=2.58 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.31 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.35 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.24 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.48 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.10 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.26 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.36 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=43.0 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=56.1 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=79.0 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=102 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19027ms
+rtt min/avg/max/mdev = 2.588/16.846/102.434/28.535 ms
+2016-09-27-22:31
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=7.26 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.39 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=6.50 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=4.34 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=7.38 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=5.54 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=5.11 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=5.05 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.85 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.73 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=4.65 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=4.35 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.92 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=5.68 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.91 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=4.42 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=14.0 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=36.9 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=59.9 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=83.7 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19027ms
+rtt min/avg/max/mdev = 3.737/13.741/83.738/20.989 ms
+2016-09-28-06:15
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.99 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.39 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=14.8 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=37.1 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=59.5 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=5.01 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.68 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.46 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.35 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.31 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.29 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=4.35 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.38 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.20 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.13 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.63 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.29 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.99 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=5.29 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.16 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19027ms
+rtt min/avg/max/mdev = 3.134/8.722/59.512/13.891 ms
+2016-09-28-12:24
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, 100% packet loss, time 19153ms
+
+2016-09-28-12:26
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=137 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=4.50 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=70.3 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=471 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=86.7 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=171 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=245 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.36 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=186 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=63.7 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=5.01 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=255 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=4.51 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 13 received, 35% packet loss, time 19014ms
+rtt min/avg/max/mdev = 3.364/131.144/471.176/131.044 ms
+2016-09-28-12:26
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=54.8 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=373 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=57.9 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=49.1 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=105 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=16.1 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=6.30 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=18.0 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=395 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=314 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=149 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.78 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=4.03 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=936 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 14 received, 30% packet loss, time 19058ms
+rtt min/avg/max/mdev = 3.781/177.504/936.732/249.882 ms
+2016-09-28-12:27
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=5.92 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=5.56 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=16.6 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=338 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=103 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=96.0 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=9.05 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.54 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=4.03 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.36 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.29 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.45 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.41 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.46 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=18.9 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.35 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=21.4 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=263 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 18 received, 10% packet loss, time 19037ms
+rtt min/avg/max/mdev = 3.294/50.335/338.161/94.074 ms
+2016-09-28-12:28
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=4.16 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.57 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=4.63 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=209 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=334 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=792 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=37.3 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=71.3 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=35.9 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=168 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=395 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=69.8 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.97 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=181 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=7.00 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=4.34 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=5.16 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 17 received, 15% packet loss, time 19025ms
+rtt min/avg/max/mdev = 3.973/137.074/792.138/202.146 ms
+2016-09-28-12:28
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=8.00 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.43 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=220 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.29 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=271 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=15.8 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=90.7 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.99 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=5.57 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.55 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=5.71 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=4.36 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=7.70 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.51 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.58 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.57 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.75 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=4.55 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=4.00 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19034ms
+rtt min/avg/max/mdev = 3.294/35.208/271.841/75.381 ms
+2016-09-28-12:29
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=7.37 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=9.97 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=5.22 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=296 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=6.97 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.29 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=4.27 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=6.10 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=7.03 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=4.13 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=4.16 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=5.06 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=5.45 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=6.51 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.92 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=4.05 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=41.3 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=6.80 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.70 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19025ms
+rtt min/avg/max/mdev = 3.707/22.801/296.785/65.087 ms
+2016-09-28-12:30
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=8.90 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.14 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=6.13 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=4.25 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=4.15 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=5.13 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.02 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=8.69 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=8.38 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.59 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.60 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=5.08 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=4.43 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=4.04 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.55 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.44 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=123 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.43 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.35 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19033ms
+rtt min/avg/max/mdev = 3.357/11.135/123.181/26.468 ms
+2016-09-28-12:31
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=5.95 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.84 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=4.62 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=10.0 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=4.87 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=56.6 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.32 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=9.94 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=33.8 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=57.3 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=79.4 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.69 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=8.27 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=24.3 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=31.8 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=9.09 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=5.81 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.54 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.40 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.18 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19029ms
+rtt min/avg/max/mdev = 3.188/18.252/79.462/21.742 ms
+2016-09-28-12:37
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.88 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=54.4 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.37 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.35 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=4.92 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=5.56 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.00 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.33 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=5.33 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.83 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=10.2 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.45 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.36 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.71 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.44 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.30 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.72 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.55 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=6.32 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.74 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19028ms
+rtt min/avg/max/mdev = 3.305/6.846/54.401/11.026 ms
+2016-09-28-12:40
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.93 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.01 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=11.9 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=12.5 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=11.0 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=11.3 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=356 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.79 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.72 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=15.2 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.81 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=36.2 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.68 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.69 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=7.32 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.81 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=5.27 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=4.49 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.76 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.85 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19029ms
+rtt min/avg/max/mdev = 3.012/25.461/356.709/76.358 ms
+2016-09-28-12:43
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.39 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.55 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.48 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.50 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=4.91 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.64 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.33 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.62 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=6.90 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.09 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.42 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=6.56 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=4.19 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=4.05 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=4.48 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.53 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=4.01 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=15.0 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.63 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.08 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19026ms
+rtt min/avg/max/mdev = 3.087/4.576/15.072/2.610 ms
+2016-09-28-12:46
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=10.1 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=48.7 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=55.5 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=4.58 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=29.3 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=14.0 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=11.7 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=5.69 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=5.54 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=6.48 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=4.23 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=7.97 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=25.6 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.69 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.59 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=6.28 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.75 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.71 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=11.5 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19031ms
+rtt min/avg/max/mdev = 3.527/13.295/55.599/14.728 ms
+2016-09-28-12:47
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=6.26 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.84 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=4.14 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.65 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=4.32 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=5.64 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.27 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.78 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.68 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=5.36 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=4.54 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.60 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=44.4 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=37.8 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=59.9 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=82.0 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=120 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=4.61 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19030ms
+rtt min/avg/max/mdev = 3.521/20.460/120.226/31.699 ms
+2016-09-28-12:47
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.72 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.58 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=4.42 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.50 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.60 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.54 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.55 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.67 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.15 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=7.90 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=8.53 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.55 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.62 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=7.70 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.58 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=8.76 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=4.93 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.55 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=4.66 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19031ms
+rtt min/avg/max/mdev = 3.151/4.656/8.760/1.843 ms
+2016-09-28-12:48
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=24.3 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=5.84 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.77 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=4.14 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.74 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=9.40 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.45 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=4.73 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.84 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=4.70 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=6.14 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.54 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.65 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.84 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.81 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.63 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=4.60 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=5.19 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=6.41 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19029ms
+rtt min/avg/max/mdev = 3.529/5.670/24.379/4.508 ms
+2016-09-28-12:48
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=10.1 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.30 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.56 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=9.78 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.63 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.57 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=6.66 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=5.01 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.54 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.55 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.47 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=8.47 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.61 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=4.26 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=5.05 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.52 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19029ms
+rtt min/avg/max/mdev = 3.305/4.763/10.140/2.144 ms
+2016-09-28-12:49
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.54 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.45 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=6.18 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=13.6 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=5.03 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.38 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.75 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.54 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=5.21 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.05 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.48 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.53 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=5.64 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.53 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.03 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=10.6 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.97 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.77 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.20 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19029ms
+rtt min/avg/max/mdev = 3.038/4.758/13.662/2.647 ms
+2016-09-28-12:50
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.48 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=6.08 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.68 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.76 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.64 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=6.11 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.49 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.51 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=11.6 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.48 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=7.31 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.65 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=4.46 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.49 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=4.43 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.49 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=5.10 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.56 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19030ms
+rtt min/avg/max/mdev = 3.481/4.577/11.689/1.956 ms
+2016-09-28-12:50
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.64 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.55 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=5.15 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.48 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.44 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.78 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=4.93 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.64 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=5.37 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.49 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=6.57 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.62 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.58 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.61 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=5.47 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.60 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.65 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.61 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19031ms
+rtt min/avg/max/mdev = 3.440/4.065/6.576/0.882 ms
+2016-09-28-12:51
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.66 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.59 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.57 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=5.67 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.48 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.69 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.65 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=5.48 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.50 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=14.7 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=77.1 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=115 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=7.01 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=2.74 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.49 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.54 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=6.61 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.64 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.58 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.61 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19031ms
+rtt min/avg/max/mdev = 2.743/13.889/115.250/28.203 ms
+2016-09-28-12:51
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=10.1 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.54 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.47 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.42 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=5.87 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.57 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.68 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.60 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.29 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=9.98 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.07 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.56 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.51 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=4.39 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.49 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=6.15 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.53 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.37 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=10.1 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.52 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19028ms
+rtt min/avg/max/mdev = 3.079/4.768/10.149/2.363 ms
+2016-09-28-12:53
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.90 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.61 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.49 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.57 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.54 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=9.07 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.43 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=4.37 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.48 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.43 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.69 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.53 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.68 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=4.60 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=7.25 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.58 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.76 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.54 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=4.18 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.81 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19029ms
+rtt min/avg/max/mdev = 3.434/4.180/9.074/1.393 ms
+2016-09-28-12:54
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.51 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.44 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.44 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.34 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.30 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.39 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=13.6 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=7.36 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.40 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.34 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=6.77 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=7.13 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=18.8 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=15.4 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.72 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.49 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=7.40 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.51 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.55 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.64 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19029ms
+rtt min/avg/max/mdev = 3.309/6.087/18.847/4.481 ms
+2016-09-28-13:02
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.31 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.18 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=9.60 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=2.98 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.53 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.44 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.90 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=7.85 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.93 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=18.1 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.53 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=6.40 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=2.47 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.34 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.27 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.26 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=8.93 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=2.54 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.40 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.21 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19026ms
+rtt min/avg/max/mdev = 2.476/5.067/18.182/3.632 ms
+2016-09-28-13:02
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=13.6 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.19 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.52 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.22 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.22 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=28.1 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.30 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=4.13 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.21 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.20 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.26 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.31 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.32 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=2.62 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=8.93 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.22 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=6.95 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.90 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=6.86 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=38.6 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19027ms
+rtt min/avg/max/mdev = 2.624/7.494/38.665/9.176 ms
+2016-09-28-13:03
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=4.15 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.44 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.42 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=3.34 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=5.04 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=2.88 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.72 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.37 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.38 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.96 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=2.87 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=4.22 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=30.3 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.44 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.64 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=2.93 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.31 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=6.56 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.35 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.42 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19029ms
+rtt min/avg/max/mdev = 2.874/5.045/30.390/5.872 ms
+2016-09-28-13:12
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+From 10.153.64.1 icmp_seq=1 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=4 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=7 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=10 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=13 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=16 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=17 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=19 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=20 Destination Host Unreachable
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, +9 errors, 100% packet loss, time 19105ms
+pipe 4
+2016-09-28-13:13
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+From 10.153.64.1 icmp_seq=1 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=3 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=6 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=9 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=12 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=13 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=15 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=16 Destination Host Unreachable
+2016-09-28-13:13
+From 10.153.64.1 icmp_seq=18 Destination Host Unreachable
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+From 10.153.64.1 icmp_seq=1 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=4 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=7 Destination Host Unreachable
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, +9 errors, 100% packet loss, time 19103ms
+pipe 4
+From 10.153.64.1 icmp_seq=10 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=13 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=14 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=16 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=17 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=19 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=20 Destination Host Unreachable
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, +10 errors, 100% packet loss, time 19045ms
+pipe 4
+2016-09-28-13:14
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+From 10.153.64.1 icmp_seq=1 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=17 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=20 Destination Host Unreachable
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, +3 errors, 100% packet loss, time 19087ms
+pipe 3
+2016-09-28-13:17
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+From 10.153.64.1 icmp_seq=7 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=10 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=13 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=16 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=19 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=20 Destination Host Unreachable
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, +6 errors, 100% packet loss, time 19103ms
+pipe 3
+2016-09-28-13:20
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+From 10.153.64.1 icmp_seq=4 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=7 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=10 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=13 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=14 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=16 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=17 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=19 Destination Host Unreachable
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, +8 errors, 100% packet loss, time 19104ms
+pipe 4
+2016-09-28-13:29
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, 100% packet loss, time 19152ms
+
+2016-09-28-13:35
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+From 10.153.64.1 icmp_seq=5 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=6 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=8 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=9 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=11 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=14 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=17 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=18 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=19 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=20 Destination Host Unreachable
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, +10 errors, 100% packet loss, time 19062ms
+pipe 4
+2016-09-28-13:35
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+From 10.153.64.1 icmp_seq=1 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=2 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=3 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=4 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=5 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=6 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=7 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=8 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=9 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=10 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=11 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=12 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=13 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=14 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=15 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=16 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=17 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=18 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=19 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=20 Destination Host Unreachable
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, +20 errors, 100% packet loss, time 19092ms
+pipe 4
+2016-09-28-13:38
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+From 10.153.64.1 icmp_seq=1 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=2 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=3 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=4 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=5 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=6 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=7 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=8 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=9 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=10 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=11 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=12 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=13 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=14 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=15 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=16 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=17 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=18 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=19 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=20 Destination Host Unreachable
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, +20 errors, 100% packet loss, time 19056ms
+pipe 4
+2016-09-28-13:56
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.28 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=6.90 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.26 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.22 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=3.22 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.27 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=3.23 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.21 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.49 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=4.67 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.44 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.19 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.31 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.34 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.25 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.14 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.13 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.18 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 18 received, 10% packet loss, time 19040ms
+rtt min/avg/max/mdev = 3.130/3.544/6.900/0.882 ms
+2016-09-28-14:00
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+From 10.153.64.1 icmp_seq=1 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=2 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=3 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=4 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=5 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=6 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=7 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=8 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=9 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=10 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=11 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=12 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=13 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=14 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=15 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=16 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=17 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=18 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=19 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=20 Destination Host Unreachable
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, +20 errors, 100% packet loss, time 19091ms
+pipe 4
+2016-09-28-14:22
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=1000 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=280 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=47.0 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=50.8 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=32.2 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=55.8 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=2.61 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=3.16 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=6.08 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=4.47 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=4.19 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.69 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=5.98 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.35 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=22.0 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=7.42 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.23 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=5.00 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.75 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=4.10 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19027ms
+rtt min/avg/max/mdev = 2.611/77.285/1000.167/220.136 ms
+2016-09-28-16:00
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=3.14 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=3.02 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.06 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=5.34 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.09 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.07 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=5.54 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=10.7 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=7.22 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.06 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.15 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.09 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=5.59 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.92 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.01 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.38 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=6.97 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=6.97 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=2.27 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=5.50 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19026ms
+rtt min/avg/max/mdev = 2.275/4.561/10.743/2.090 ms
+2016-09-28-17:57
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=7.33 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=5.22 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=3.88 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=2.75 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=3.19 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=3.89 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=13.3 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 7 received, 65% packet loss, time 19097ms
+rtt min/avg/max/mdev = 2.754/5.664/13.363/3.447 ms
+2016-09-28-18:16
+2016-09-28-18:22
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=5.43 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=53.3 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=8.68 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=62.2 ms
+2016-09-28-18:23
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 4 received, 80% packet loss, time 19005ms
+rtt min/avg/max/mdev = 5.432/32.427/62.205/25.585 ms
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, 100% packet loss, time 18999ms
+
+2016-09-28-18:24
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=4.43 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.35 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=4.97 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=4.36 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=4.26 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=4.39 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.38 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=4.40 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=6.04 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=4.37 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.75 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.88 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=5.02 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.76 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=4.28 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.64 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.90 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=4.97 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.75 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.90 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19027ms
+rtt min/avg/max/mdev = 3.648/4.344/6.048/0.567 ms
+2016-09-29-10:13
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+From 10.153.64.1 icmp_seq=1 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=2 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=3 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=4 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=5 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=6 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=7 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=8 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=9 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=10 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=11 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=12 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=13 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=14 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=15 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=16 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=17 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=18 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=19 Destination Host Unreachable
+From 10.153.64.1 icmp_seq=20 Destination Host Unreachable
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, +20 errors, 100% packet loss, time 19078ms
+pipe 4
+2016-09-29-10:28
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 0 received, 100% packet loss, time 19151ms
+
+2016-09-29-11:24
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=4.28 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=5.35 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=4.62 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=6.11 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=4.37 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=5.15 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.42 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=4.40 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=4.46 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=4.82 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.84 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.91 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=3.84 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=5.41 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=3.90 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=4.42 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.89 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=5.60 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.53 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=7.87 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19030ms
+rtt min/avg/max/mdev = 3.538/4.713/7.874/0.987 ms
+2016-09-29-18:55
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=2.88 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=2.76 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=2.67 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=2.57 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=2.83 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=2.90 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=8.33 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=2.69 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=5.98 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=5.26 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.12 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=4.21 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=2.74 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=10.7 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=4.17 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.74 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=3.47 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.67 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=2.99 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=5.20 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19031ms
+rtt min/avg/max/mdev = 2.572/4.152/10.776/2.074 ms
+2016-09-30-06:22
+PING 100.66.108.100 (100.66.108.100) 56(84) bytes of data.
+64 bytes from 100.66.108.100: icmp_seq=1 ttl=63 time=138 ms
+64 bytes from 100.66.108.100: icmp_seq=2 ttl=63 time=4.36 ms
+64 bytes from 100.66.108.100: icmp_seq=3 ttl=63 time=5.49 ms
+64 bytes from 100.66.108.100: icmp_seq=4 ttl=63 time=4.44 ms
+64 bytes from 100.66.108.100: icmp_seq=5 ttl=63 time=4.33 ms
+64 bytes from 100.66.108.100: icmp_seq=6 ttl=63 time=5.43 ms
+64 bytes from 100.66.108.100: icmp_seq=7 ttl=63 time=4.49 ms
+64 bytes from 100.66.108.100: icmp_seq=8 ttl=63 time=5.89 ms
+64 bytes from 100.66.108.100: icmp_seq=9 ttl=63 time=6.27 ms
+64 bytes from 100.66.108.100: icmp_seq=10 ttl=63 time=3.95 ms
+64 bytes from 100.66.108.100: icmp_seq=11 ttl=63 time=3.89 ms
+64 bytes from 100.66.108.100: icmp_seq=12 ttl=63 time=3.86 ms
+64 bytes from 100.66.108.100: icmp_seq=13 ttl=63 time=7.21 ms
+64 bytes from 100.66.108.100: icmp_seq=14 ttl=63 time=3.85 ms
+64 bytes from 100.66.108.100: icmp_seq=15 ttl=63 time=4.27 ms
+64 bytes from 100.66.108.100: icmp_seq=16 ttl=63 time=3.95 ms
+64 bytes from 100.66.108.100: icmp_seq=17 ttl=63 time=5.06 ms
+64 bytes from 100.66.108.100: icmp_seq=18 ttl=63 time=3.86 ms
+64 bytes from 100.66.108.100: icmp_seq=19 ttl=63 time=3.74 ms
+64 bytes from 100.66.108.100: icmp_seq=20 ttl=63 time=3.41 ms
+
+--- 100.66.108.100 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19029ms
+rtt min/avg/max/mdev = 3.413/11.317/138.502/29.194 ms
