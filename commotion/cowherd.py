@@ -12,11 +12,13 @@ from libcommotion import *
 if __name__=="__main__":
 	if len(sys.argv)<2:
 		if os.popen("which cowsay").read().strip()=="/usr/games/cowsay":
-			os.system("cowsay 'Use one of the following commands: \n \
-		gw_test_key_auth : Test key bases authentication \n \
-		show_config: Show the current manager config\n \
-		gw_get_hostname: Get and add the gateway hostname to the config\n \
-		gw_get_routes: Get and show routes from host'")
+			os.system("cowsay \
+			'Use one of the following commands: \n \
+			  gw_test_key_auth : Test key bases authentication \n \
+			  show_config: Show the current manager config\n \
+			  gw_get_hostname: Get and add the gateway hostname to the config\n \
+			  gw_get_routes: Get and show routes from host\n \
+		'")
 		else:
 			print "Use one of the following commands: \n \
 			gw_test_key_auth : Test key bases authentication \n \
