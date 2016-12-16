@@ -1,5 +1,5 @@
 import sys,os,json
-sys.path.append("/opt/cowmesh/lib")
+sys.path.append("../lib")
 from cowcrawl import *
 import twitter
 f=open("/opt/twitter.json","r")

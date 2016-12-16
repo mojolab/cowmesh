@@ -5,7 +5,7 @@ import requests
 def get_links_from_url(url,prefix=None,filtered=True):
 	links=[]
 	resp=requests.get(url)
-	soup=BeautifulSoup(resp.content)
+	soup=BeautifulSoup(resp.content,"lxml")
 	if prefix==None:
 		prefix=resp.url
 	for link in soup.find_all("a"):
