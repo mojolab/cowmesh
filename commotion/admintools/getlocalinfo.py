@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Dec 16 20:30:14 2016
-
 @author: arjun@mojolab.org
+
+Get local information on management system (the system where this program is installed)
 """
 import sys, os
 
