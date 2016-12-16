@@ -7,7 +7,7 @@ Get local information on management system (the system where this program is ins
 """
 import sys, os, json
 sys.path.append("../lib")
-configfile=os.path.expanduser("~/.cowmeshconfig.json")
+configfile=os.path.expanduser("~/.cowherdconfig.json")
 			
 from interfaces import *
 if __name__=="__main__":
@@ -25,14 +25,16 @@ if __name__=="__main__":
     print "Default Gateway: ",gw 
     print "***********************************"
     print "Creating config file at %s " %configfile
-    mgrconfig={}
-    mgrconfig['hostname']=hostname
-    mgrconfig['ipinterfaces']=ipinterfaces
-    mgrconfig['gateway']=gw
-    mgrjsonconfig=json.dumps(mgrconfig,sort_keys=True, indent=4)
+    config={}
+    config['cowherd']={}
+    config['cowherd']['hostname']=hostname
+    config['cowherd']['ipinterfaces']=ipinterfaces
+    config['gateway']={}
+    config['gateway']['ip']=gw
+    cowherdjsonconfig=json.dumps(config,sort_keys=True, indent=4)
     try:
 		f=open(configfile,"w")
-		f.write(mgrjsonconfig)
+		f.write(cowherdjsonconfig)
 		f.write("\n")
 		f.close()
     except:

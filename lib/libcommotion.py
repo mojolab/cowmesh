@@ -1,17 +1,19 @@
 import os,json
-class CommotionManager:
+class CommotionCOWHerd:
 	def __init__(self,configfilepath):
 		self.configfilepath=configfilepath
 		f=open(configfilepath,"r")
 		self.config=json.loads(f.read())
 		
 	def gw_get_hostname(self):
-		gatewayhostname=os.popen("ssh -oNumberOfPasswordPrompts=0 root@%s 'nslookup %s | grep %s | grep Address'" %(self.config['gateway'],self.config['gateway'],self.config['gateway'])).read().strip()
+		print "Trying to get and add the gateway hostname to our config..."
+		gatewayhostname=os.popen("ssh -oNumberOfPasswordPrompts=0 root@%s 'nslookup %s | grep %s | grep Address'" %(self.config['gateway']['ip'],self.config['gateway']['ip'],self.config['gateway']['ip'])).read().strip()
 		if gatewayhostname:
 			gwhostname=gatewayhostname.split(" ")[len(gatewayhostname.split(" "))-1]
-			self.config['gwhostname']=gwhostname
+			self.config['gateway']['hostname']=gwhostname
+			print "Got hostname %s" %self.config['gateway']['hostname']
+			self.save_config()
 			return True
-			
 		else:
 			return False
 						
@@ -24,12 +26,23 @@ class CommotionManager:
 		print json.dumps(self.config,sort_keys=True, indent=4)
 
 	def gw_test_key_auth(self):
-		keyauth=os.popen("ssh -oNumberOfPasswordPrompts=0 root@%s 'echo hello'" %self.config['gateway']).read().strip()
+		print "Trying to log in with our key..."
+		keyauth=os.popen("ssh -oNumberOfPasswordPrompts=0 root@%s 'echo hello'" %self.config['gateway']['ip']).read().strip()
 		if keyauth=="hello":
+			print "Key auth successful!"
 			return True
+		else:
+			print "Copy your the contents of ~/.ssh/id_rsa.pub, or wherever else you have your ssh public key registered with the gateway"
+			return False
 	def gw_get_routes(self):
-		gatewayroutes=os.popen("ssh -oNumberOfPasswordPrompts=0 root@%s 'ip route show'" %(self.config['gateway'])).read().strip().split("\n")
-		return gatewayroutes
+		print "Retreiving routes from gateway...."
+		gatewayroutes=os.popen("ssh -oNumberOfPasswordPrompts=0 root@%s 'ip route show'" %(self.config['gateway']['ip'])).read().strip().split("\n")
+		if gatewayroutes:
+			print gatewayroutes
+			return True
 	def gw_get_dhcp_leases(self):
-		gatewayleases=os.popen("ssh -oNumberOfPasswordPrompts=0 root@%s 'cat /var/dhcp.leases'" %(self.config['gateway'])).read().strip().split("\n")
-		return gatewayleases	
+		print "Retreiving dhcp leases from gateway...."
+		gatewayleases=os.popen("ssh -oNumberOfPasswordPrompts=0 root@%s 'cat /var/dhcp.leases'" %(self.config['gateway']['ip'])).read().strip().split("\n")
+		if gatewayleases:
+			print gatewayleases	
+			return True
