@@ -9,7 +9,7 @@ def get_ipifaces():
 		dictionary={}
 		iface=link.split(": ")[1]
 		ipaddr=os.popen("ip addr show %s | grep 'inet '" %iface).read().strip().split(" ")[1].split("/")[0]
-		print iface,ipaddr
+		#print iface,ipaddr
 		dictionary['name']=iface
 		dictionary['addr']=ipaddr
 		dictionary['protocol']="ip"
