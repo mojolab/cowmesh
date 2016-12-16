@@ -5,12 +5,11 @@ Created on Fri Dec 16 20:30:14 2016
 
 Get local information on management system (the system where this program is installed)
 """
-import sys, os
-
-sys.path.append("../../lib")
-
+import sys, os, json
+sys.path.append("../lib")
+configfile=os.path.expanduser("~/.cowmeshconfig.json")
+			
 from interfaces import *
-
 if __name__=="__main__":
     hostname=os.popen("hostname").read().strip()
     print "***********************************"
@@ -25,3 +24,17 @@ if __name__=="__main__":
     gw=os.popen("ip route show | grep 'default' | cut -d ' ' -f 3").read().strip()
     print "Default Gateway: ",gw 
     print "***********************************"
+    print "Creating config file at %s " %configfile
+    mgrconfig={}
+    mgrconfig['hostname']=hostname
+    mgrconfig['ipinterfaces']=ipinterfaces
+    mgrconfig['gateway']=gw
+    mgrjsonconfig=json.dumps(mgrconfig,sort_keys=True, indent=4)
+    try:
+		f=open(configfile,"w")
+		f.write(mgrjsonconfig)
+		f.write("\n")
+		f.close()
+    except:
+		print "Failed to create config"
+	
