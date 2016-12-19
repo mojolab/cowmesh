@@ -1,24 +1,24 @@
 import os,json, datetime,sys
 from libcowherd import *
 
-class CommotionCOWHerd(COWHerd):		
-	
-	
-	def gw_get_hostname(self):
-		print "Trying to get and add the gateway hostname to our config..."
-		gwhostname=self.get_hostname(self.config['gateway']['ip'],"root")
-		if gwhostname:
-			self.config['gateway']['hostname']=gwhostname
-			print "Got hostname %s" %self.config['gateway']['hostname']
-			self.save_config()
+class CommotionCOWHerd(COWHerd):	
+	def check_commotion(self,host,user="root"):
+		output=self.runremote("ls /var/run/commotiond.pid",host,user)
+		if output=="/var/run/commotiond.pid":
 			return True
 		else:
 			return False
-						
-	
-	def gw_get_routes(self):
+	def get_hostname(self,host,user="root"):
+		print "Trying to get and add the hostname for %s to our config..." %host
+		hostname=self.runremote("nslookup %s | grep %s | grep Address" %(host,host),host,user)
+		if hostname:
+			hostname=hostname.split(" ")[len(hostname.split(" "))-1]
+			return hostname
+		else:
+			return False
+	def gw_get_routes(self,host,user="root"):
 		print "Retreiving routes from gateway...."
-		gatewayroutes=os.popen("ssh -oNumberOfPasswordPrompts=0 root@%s 'ip route show'" %(self.config['gateway']['ip'])).read().strip().split("\n")
+		gatewayroutes=self.runremote('ip route show',host,user).split("\n")
 		if gatewayroutes:
 			gwroutes=[]
 			for route in gatewayroutes:
@@ -31,16 +31,14 @@ class CommotionCOWHerd(COWHerd):
 					routedict['device']=route.split(' ')[2]
 				print routedict
 				gwroutes.append(routedict)
-			self.config['gateway']['routes']=gwroutes
-			self.save_config()
-			return True
+			return gwroutes
 		else:
 			print "No routes found"
 			return False
 	
-	def gw_get_dhcp_leases(self):
+	def gw_get_dhcp_leases(self,host,user="root"):
 		print "Retreiving dhcp leases from gateway...."
-		gatewayleases=os.popen("ssh -oNumberOfPasswordPrompts=0 root@%s 'cat /var/dhcp.leases'" %(self.config['gateway']['ip'])).read().strip().split("\n")
+		gatewayleases=self.runremote('cat /var/dhcp.leases',host,user).split("\n")
 		if gatewayleases:
 			gwdhcpleases=[]
 			for lease in gatewayleases:
@@ -52,21 +50,8 @@ class CommotionCOWHerd(COWHerd):
 				if len(lease.split(' '))>3:
 					leasedict['clientid']=lease.split(' ')[4]
 				gwdhcpleases.append(leasedict)
-			self.config['gateway']['dhcpleases']=gwdhcpleases
-			self.save_config()
-			return True
+			return gwdhcpleases
 		else:
 			print "No leases found"
 			return False
-	def gw_get_gwpeers(self):
-		self.gw_get_routes()
-		peergws=[]
-		for route in self.config['gateway']['routes']:
-			print route
-			if 'gateway' in route.keys():
-				print route['gateway']
-				peergws.append(route['gateway'])
-		peergws=list(set(peergws))
-		self.config['gateway']['peergws']=peergws
-		self.save_config()
-		return True
+	
