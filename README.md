@@ -23,5 +23,7 @@ This toolset strives to collate tools that enale such cross network sharing.
 
 ###Dependencies
 click - http://click.pocoo.org/5/
+
 netifaces - https://pypi.python.org/pypi/netifaces
 
+pygments - http://pygments.org/
