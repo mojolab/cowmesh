@@ -1,19 +1,21 @@
 import os,json, datetime
 from netifaces import * 
 from state import *
+from datetime import *
 class COWHerd:
 	def __init__(self,configfilepath):
 		self.configfilepath=configfilepath
-		if os.path.isfile(configfilepath):
-			f=open(configfilepath,"r")
+		if os.path.isfile(os.path.expanduser(configfilepath)):
+			f=open(os.path.expanduser(configfilepath),"r")
 			self.config=json.loads(f.read())
 		else: 
 			self.config={'cowherd':{}}
 	
 	def create_config(self,ostype="debian"):
 		if ostype=="debian":
+			ts=datetime.now().strftime("%Y-%m-%d-%H%M%S")
+			self.config['created']=ts
 			hostname=os.popen("hostname").read().strip()
-			print hostname
 			self.config['cowherd']['hostname']=hostname
 			self.save_config()
 			self.config['cowherd']['netifaces']=[]
@@ -22,7 +24,6 @@ class COWHerd:
 			for iface in ifaces:
 				ifacedict={}
 				ifacedict['name']=iface
-				print ifaddresses(iface)
 				stateup=os.popen("ip link show %s | grep 'state UP'" %(iface)).read().strip()
 				if stateup:
 					ifacedict['up']=True
@@ -41,6 +42,8 @@ class COWHerd:
 			self.save_config()
 	
 	def save_config(self):
+		ts=datetime.now().strftime("%Y-%m-%d-%H%M%S")
+		self.config['updated']=ts
 		f=open(os.path.expanduser(self.configfilepath),"w")
 		f.write(json.dumps(self.config,sort_keys=True, indent=4))
 		f.write("\n")
@@ -49,13 +52,11 @@ class COWHerd:
 		print json.dumps(self.config,sort_keys=True, indent=4)
 		
 	def runremote(self,command,host="localhost",user=os.environ.get("USER")):
-		print "Trying to run command '%s' on host %s as user %s" %(command,host,user)
 		output=os.popen("ssh -oNumberOfPasswordPrompts=0 %s@%s '%s'" %(user,host,command)).read().strip()
 		return output
 	
 	
 	def test_key_auth(self,host,user):
-		print "Trying to log in with our key to host %s as user %s..." %(host,user)
 		keyauth=self.runremote("echo hello",host,user)
 		if keyauth=="hello":
 			return True
