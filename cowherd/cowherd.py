@@ -32,6 +32,51 @@ def showconfig(ctx):
 
 @click.argument("user",nargs=1,default="root")
 @click.argument("host",nargs=1)
+
+@cli.command()
+@click.pass_context
+def getclientsforgw(ctx,host,user):
+    leases=cowherd.gw_get_dhcp_leases(host,user)
+    print get_color_json(leases)
+
+@cli.command()
+@click.pass_context
+def updategwhostnames(ctx):
+    cowherd.update_gw_hostnames()
+
+@cli.command()
+@click.pass_context
+def updategwroutes(ctx):
+    cowherd.update_gw_routes()
+
+
+@cli.command()
+@click.pass_context
+def updategwleases(ctx):
+    cowherd.update_gw_leases()
+
+@cli.command()
+@click.pass_context
+def updategwcommotion(ctx):
+    cowherd.update_gw_commotion()
+
+@cli.command()
+@click.pass_context
+def getpeergateways(ctx):
+    cowherd.get_peer_gateways()
+
+@cli.command()
+@click.pass_context
+def getnumclients(ctx):
+    cowherd.get_numclients()
+
+@cli.command()
+@click.pass_context
+def buildtree(ctx):
+    cowherd.build_tree()
+
+@click.argument("user",nargs=1,default="root")
+@click.argument("host",nargs=1)
 @click.argument("command",nargs=1)
 
 @cli.command()
@@ -56,7 +101,7 @@ def testkeyauth(ctx,host,user):
 	if keyauth:
 		click.secho("Key auth successful for %s as user %s" %(host,user),fg="green")
 	else:
-		print "Key auth failes for %s as users %s" %(host,user)
+		click.secho("Key auth failes for %s as users %s" %(host,user),fg="red")
 
 	
 if __name__ == '__main__':

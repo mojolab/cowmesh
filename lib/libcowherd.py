@@ -2,6 +2,18 @@ import os,json, datetime
 from netifaces import * 
 from state import *
 from datetime import *
+from pygments import highlight, lexers, formatters
+
+def get_formatted_json(dictionary):
+	formatted_json=json.dumps(dictionary,sort_keys=True, indent=4)
+	return formatted_json
+	
+def get_color_json(dictionary):
+	formatted_json=get_formatted_json(dictionary)
+	colorful_json = highlight(unicode(formatted_json, 'UTF-8'), lexers.JsonLexer(), formatters.TerminalFormatter())
+	return colorful_json
+	
+
 class COWHerd:
 	def __init__(self,configfilepath):
 		self.configfilepath=configfilepath
@@ -45,18 +57,21 @@ class COWHerd:
 		ts=datetime.now().strftime("%Y-%m-%d-%H%M%S")
 		self.config['updated']=ts
 		f=open(os.path.expanduser(self.configfilepath),"w")
-		f.write(json.dumps(self.config,sort_keys=True, indent=4))
+		f.write(get_formatted_json(self.config))
 		f.write("\n")
 	
 	def show_config(self):
-		print json.dumps(self.config,sort_keys=True, indent=4)
-		
+		print get_color_json(self.config)
 	def runremote(self,command,host="localhost",user=os.environ.get("USER")):
-		output=os.popen("ssh -oNumberOfPasswordPrompts=0 %s@%s '%s'" %(user,host,command)).read().strip()
+		output=os.popen("ssh -oNumberOfPasswordPrompts=0 -oConnectTimeout=10 %s@%s '%s'" %(user,host,command)).read().strip()
 		return output
 	
+		
+			
+			
+			
 	
-	def test_key_auth(self,host,user):
+	def test_key_auth(self,host,user="root"):
 		keyauth=self.runremote("echo hello",host,user)
 		if keyauth=="hello":
 			return True
