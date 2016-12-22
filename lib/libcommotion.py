@@ -85,6 +85,24 @@ class CommotionCOWHerd(COWHerd):
 				gwnames.append(gw['hostname'])
 		gwnames=list(set(gwnames))
 		return gwnames
+	
+	def get_graph_nodes(self):
+		nodes=[]
+		for node in self.config['graph']['nodes']:
+			nodes.append(node['id'])
+		nodes=list(set(nodes))
+		return nodes
+	def build_graph(self):
+		nodes=self.get_graph_nodes()
+		print nodes
+		if "cowherd" not in nodes:
+			cowherdnode={"id":"cowherd","group":1}
+			self.config['graph']['nodes'].append(cowherdnode)
+		for gw in self.config['gateways']:
+			if gw['hostname'] not in nodes:
+				gwnode={"id":gw['hostname'],'group':2}
+				self.config['graph']['nodes'].append(gwnode)
+	
 	def get_peer_gateways(self):
 		print colored("Identifying new peer gateways...","yellow")
 		curgws=[]
@@ -142,10 +160,14 @@ class CommotionCOWHerd(COWHerd):
 			print colored(gw['addr'][0]+" "+gw['hostname']+": ","yellow")+colored(str(len(gw['leases'])),"green")
 			numclients+=len(gw['leases'])
 		print colored("Total clients: ","yellow"),colored(str(numclients),"green")
+	
 	def build_tree(self):
 		newadd=True
 		while newadd:
 			self.update_gw_hostnames()
+			self.build_graph()
+			self.update_graph()
+		
 			self.update_gw_leases()
 			self.update_gw_routes()
 			self.update_gw_commotion()

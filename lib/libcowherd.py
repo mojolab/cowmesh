@@ -31,7 +31,8 @@ class COWHerd:
 			self.config['cowherd']['hostname']=hostname
 			self.save_config()
 			self.config['cowherd']['netifaces']=[]
-			
+			self.config['graphfile']="../web/cowherdgraph.json"
+			self.config['graph']={"nodes":[],"links":[]}
 			ifaces = interfaces()
 			for iface in ifaces:
 				ifacedict={}
@@ -60,7 +61,10 @@ class COWHerd:
 		f=open(os.path.expanduser(self.configfilepath),"w")
 		f.write(get_formatted_json(self.config))
 		f.write("\n")
-	
+	def update_graph(self):
+		f=open(os.path.expanduser(self.config['graphfile']),"w")
+		f.write(get_formatted_json(self.config['graph']))
+		f.write("\n")
 	def show_config(self):
 		print get_color_json(self.config)
 	def runremote(self,command,host="localhost",user=os.environ.get("USER")):

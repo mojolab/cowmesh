@@ -1,17 +1,29 @@
 {
-  "nodes": [
-    {"id": "COW1", "group": 1},
-    {"id": "COW2", "group": 1},
-    {"id": "COW3", "group": 2},
-    {"id": "COW4", "group": 3},
-    {"id": "COW5", "group": 4},
-    {"id": "COW6", "group": 5}
-  ],
-  "links": [
-    {"source": "COW2", "target": "COW1", "value": 1},
-    {"source": "COW5", "target": "COW4", "value": 1},
-    {"source": "COW6", "target": "COW4", "value": 1},
-    {"source": "COW4", "target": "COW1", "value": 1},
-    {"source": "COW3", "target": "COW2", "value": 1}
-  ]
+    "links": [], 
+    "nodes": [
+        {
+            "group": 1, 
+            "id": "cowherd"
+        }, 
+        {
+            "group": 2, 
+            "id": "CowRocket-Fuchka-1359124800.mesh.local"
+        }, 
+        {
+            "group": 2, 
+            "id": "CowRocket-Tiger-1840275077.mesh.local"
+        }, 
+        {
+            "group": 2, 
+            "id": "CowRocket-Kalu-1359113316.mesh.local"
+        }, 
+        {
+            "group": 2, 
+            "id": "CowTPLink-Gateway-661814570.mesh.local"
+        }, 
+        {
+            "group": 2, 
+            "id": "CowNano-Moti-579079606.mesh.local"
+        }
+    ]
 }
