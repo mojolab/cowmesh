@@ -1,6 +1,6 @@
 import os,json, datetime
 from netifaces import * 
-from state import *
+#from state import *
 from datetime import *
 from pygments import highlight, lexers, formatters
 
@@ -47,7 +47,8 @@ class COWHerd:
 			self.config['gateways']=[]
 			for gw in gws:
 				gwdict={}
-				gwdict['addr']=gw[0]
+				gwdict['addr']=[]
+				gwdict['addr'].append(gw[0])
 				gwdict['iface']=gw[1]
 				gwdict['default']=gw[2]
 				self.config['gateways'].append(gwdict)
