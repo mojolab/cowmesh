@@ -1,29 +1,19 @@
 {
-    "links": [], 
+    "links": [
+        {
+            "source": "cowherd", 
+            "target": "192.168.43.1", 
+            "value": 1
+        }
+    ], 
     "nodes": [
         {
             "group": 1, 
             "id": "cowherd"
         }, 
         {
-            "group": 2, 
-            "id": "CowRocket-Fuchka-1359124800.mesh.local"
-        }, 
-        {
-            "group": 2, 
-            "id": "CowRocket-Tiger-1840275077.mesh.local"
-        }, 
-        {
-            "group": 2, 
-            "id": "CowRocket-Kalu-1359113316.mesh.local"
-        }, 
-        {
-            "group": 2, 
-            "id": "CowTPLink-Gateway-661814570.mesh.local"
-        }, 
-        {
-            "group": 2, 
-            "id": "CowNano-Moti-579079606.mesh.local"
+            "group": 6, 
+            "id": "192.168.43.1"
         }
     ]
 }

@@ -72,8 +72,20 @@ def getnumclients(ctx):
 
 @cli.command()
 @click.pass_context
-def buildtree(ctx):
+def getclientreport(ctx):
+    cowherd.get_client_report()
+
+
+@click.option('--cont', is_flag=True)
+
+@cli.command()
+@click.pass_context
+def buildtree(ctx,cont):
     cowherd.build_tree()
+    if cont:
+		while True:
+			cowherd.create_config()
+			cowherd.build_tree()
 
 @click.argument("user",nargs=1,default="root")
 @click.argument("host",nargs=1)

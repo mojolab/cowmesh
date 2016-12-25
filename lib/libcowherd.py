@@ -3,6 +3,7 @@ from netifaces import *
 #from state import *
 from datetime import *
 from pygments import highlight, lexers, formatters
+from termcolor import colored
 
 def get_formatted_json(dictionary):
 	formatted_json=json.dumps(dictionary,sort_keys=True, indent=4)
@@ -72,10 +73,14 @@ class COWHerd:
 		return output
 	
 		
-			
-			
-			
-	
+	def is_up(self,host):
+		print colored("Checking if ","yellow"),colored(host,"cyan"),colored(" is up...","yellow")
+		op=os.popen("nmap -A  %s -sn" %host).read().strip()
+		if "Host is up" in op:
+			print "Host is up"
+			return True
+		else:
+			return False
 	def test_key_auth(self,host,user="root"):
 		keyauth=self.runremote("echo hello",host,user)
 		if keyauth=="hello":
