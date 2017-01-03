@@ -22,6 +22,8 @@ class CommotionCOWHerd(COWHerd):
 			
 	def gw_get_routes(self,host,user="root"):
 		print colored("Getting routes from host ","yellow"),colored(host,"cyan")
+		if not self.test_key_auth(host):
+			return False
 		gatewayroutes=self.runremote('ip route show',host,user).split("\n")
 		if gatewayroutes:
 			gwroutes=[]
@@ -143,7 +145,7 @@ class CommotionCOWHerd(COWHerd):
 						
 		for gw in self.config['gateways']:
 			if 'hostname' in gw.keys():
-				if 'routes' in gw.keys():
+				if 'routes' in gw.keys() and gw['routes']!=False:
 					for route in gw['routes']:
 						if 'gateway' in route.keys():
 							if self.gw_lookup_hostname(route['gateway']) in nodes:
@@ -151,7 +153,6 @@ class CommotionCOWHerd(COWHerd):
 								linkdict['source']=gw['hostname']
 								linkdict['value']=3
 								linkdict['target']=self.gw_lookup_hostname(route['gateway'])
-								print linkdict
 								if linkdict not in self.config['graph']['links']:
 									self.config['graph']['links'].append(linkdict)
 								else:
@@ -164,7 +165,6 @@ class CommotionCOWHerd(COWHerd):
 								linkdict['source']=gw['hostname']
 								linkdict['value']=1
 								linkdict['target']=lease['name']
-								print linkdict
 								if linkdict not in self.config['graph']['links']:
 									self.config['graph']['links'].append(linkdict)
 								else:
@@ -185,7 +185,7 @@ class CommotionCOWHerd(COWHerd):
 		routegws=[]
 		for gw in self.config['gateways']:
 			curgws.append(gw['addr'][0])
-			if 'routes' in gw.keys():
+			if 'routes' in gw.keys() and gw['routes']!=False:
 				for route in gw['routes']:
 					if 'gateway' in route.keys():
 						routegws.append(route['gateway'])
@@ -195,27 +195,26 @@ class CommotionCOWHerd(COWHerd):
 		for newgw in newgws:
 			print colored("Checking new gateway "),colored(newgw,"cyan")
 			
-			if self.test_key_auth(newgw):
-				newgwhostname=self.get_hostname(newgw)
-				if newgwhostname in gwnames:
-					for gw in self.config['gateways']:
-						if 'hostname' in gw.keys() and gw['hostname']==newgwhostname:
-							if newgw in gw['addr']:
-								print "Address is already known"
-							else:
-								gw['addr'].append(newgw)
-								print "Added address %s to existing host %s" %(newgw,gw['hostname'])
-							skipped.append(newgw)
-				else:
-					gwdict={}
-					gwdict['addr']=[]
-					gwdict['addr'].append(newgw)
-					gwdict['hostname']=newgwhostname
-					self.config['gateways'].append(gwdict)
-					self.save_config()
+			newgwhostname=self.get_hostname(newgw)
+			if newgwhostname in gwnames:
+				for gw in self.config['gateways']:
+					if 'hostname' in gw.keys() and gw['hostname']==newgwhostname:
+						if newgw in gw['addr']:
+							print "Address is already known"
+						else:
+							gw['addr'].append(newgw)
+							print "Added address %s to existing host %s" %(newgw,gw['hostname'])
+						skipped.append(newgw)
 			else:
-				print colored("Keyauth failed...not adding ","yellow"), colored(newgw,"cyan")
-				skipped.append(newgw)
+				gwdict={}
+				gwdict['addr']=[]
+				gwdict['addr'].append(newgw)
+				gwdict['hostname']=newgwhostname
+				self.config['gateways'].append(gwdict)
+				self.save_config()
+			#else:
+			#	print colored("Keyauth failed...not adding ","yellow"), colored(newgw,"cyan")
+			#	skipped.append(newgw)
 		newadded=set(newgws)-set(skipped)
 		if len(list(newadded))>0:
 			print colored("New routers added ","yellow"),colored(str(list(newadded)),"cyan")
@@ -240,19 +239,13 @@ class CommotionCOWHerd(COWHerd):
 	
 	def build_tree(self):
 		newadd=True
+		self.update_gw_hostnames()
 		while newadd:
-			self.update_gw_hostnames()
-			self.build_graph()
-			self.update_graph()
-			self.update_gw_clients()
-			self.build_graph()
-			self.update_graph()
 			self.update_gw_routes()
 			self.build_graph()
 			self.update_graph()
+			self.update_gw_clients()
 			self.update_gw_commotion()
-			self.build_graph()
-			self.update_graph()
 			newadd=self.get_peer_gateways()
 		self.build_graph()
 		self.update_graph()
