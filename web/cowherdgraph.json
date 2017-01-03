@@ -4,6 +4,91 @@
             "source": "cowherd", 
             "target": "CowRocket-Fuchka-1359124800.mesh.local", 
             "value": 1
+        }, 
+        {
+            "source": "CowRocket-Fuchka-1359124800.mesh.local", 
+            "target": "CowRocket-Tiger-1840275077.mesh.local", 
+            "value": 3
+        }, 
+        {
+            "source": "CowRocket-Fuchka-1359124800.mesh.local", 
+            "target": "CowRocket-Kalu-1359113316.mesh.local", 
+            "value": 3
+        }, 
+        {
+            "source": "CowRocket-Fuchka-1359124800.mesh.local", 
+            "target": "zappiers", 
+            "value": 1
+        }, 
+        {
+            "source": "CowRocket-Fuchka-1359124800.mesh.local", 
+            "target": "android-8784c7d98a98e61c", 
+            "value": 1
+        }, 
+        {
+            "source": "CowRocket-Fuchka-1359124800.mesh.local", 
+            "target": "avghat", 
+            "value": 1
+        }, 
+        {
+            "source": "CowRocket-Tiger-1840275077.mesh.local", 
+            "target": "CowRocket-Kalu-1359113316.mesh.local", 
+            "value": 3
+        }, 
+        {
+            "source": "CowRocket-Kalu-1359113316.mesh.local", 
+            "target": "CowRocket-Tiger-1840275077.mesh.local", 
+            "value": 3
+        }, 
+        {
+            "source": "CowRocket-Tiger-1840275077.mesh.local", 
+            "target": "CowTPLink-Gateway-661814570.mesh.local", 
+            "value": 3
+        }, 
+        {
+            "source": "CowRocket-Tiger-1840275077.mesh.local", 
+            "target": "CowRocket-Fuchka-1359124800.mesh.local", 
+            "value": 3
+        }, 
+        {
+            "source": "CowRocket-Tiger-1840275077.mesh.local", 
+            "target": "android-37b8449073e8a854", 
+            "value": 1
+        }, 
+        {
+            "source": "CowRocket-Tiger-1840275077.mesh.local", 
+            "target": "android-f2c8dc1eb3b04407", 
+            "value": 1
+        }, 
+        {
+            "source": "CowRocket-Kalu-1359113316.mesh.local", 
+            "target": "CowRocket-Fuchka-1359124800.mesh.local", 
+            "value": 3
+        }, 
+        {
+            "source": "CowRocket-Kalu-1359113316.mesh.local", 
+            "target": "android-323a4675f01ccf57", 
+            "value": 1
+        }, 
+        {
+            "source": "CowTPLink-Gateway-661814570.mesh.local", 
+            "target": "CowRocket-Tiger-1840275077.mesh.local", 
+            "value": 3
+        }, 
+        {
+            "source": "CowTPLink-Gateway-661814570.mesh.local", 
+            "target": "CowNano-Moti-579079606.mesh.local", 
+            "value": 3
+        }, 
+        {
+            "source": "CowNano-Moti-579079606.mesh.local", 
+            "target": "CowRocket-Tiger-1840275077.mesh.local", 
+            "value": 3
+        }, 
+        {
+            "source": "CowNano-Moti-579079606.mesh.local", 
+            "target": "CowTPLink-Gateway-661814570.mesh.local", 
+            "value": 3
         }
     ], 
     "nodes": [
@@ -14,6 +99,46 @@
         {
             "group": 6, 
             "id": "CowRocket-Fuchka-1359124800.mesh.local"
+        }, 
+        {
+            "group": 6, 
+            "id": "CowRocket-Tiger-1840275077.mesh.local"
+        }, 
+        {
+            "group": 6, 
+            "id": "CowRocket-Kalu-1359113316.mesh.local"
+        }, 
+        {
+            "group": 4, 
+            "id": "zappiers"
+        }, 
+        {
+            "group": 8, 
+            "id": "android-8784c7d98a98e61c"
+        }, 
+        {
+            "group": 4, 
+            "id": "avghat"
+        }, 
+        {
+            "group": 6, 
+            "id": "CowTPLink-Gateway-661814570.mesh.local"
+        }, 
+        {
+            "group": 8, 
+            "id": "android-37b8449073e8a854"
+        }, 
+        {
+            "group": 8, 
+            "id": "android-f2c8dc1eb3b04407"
+        }, 
+        {
+            "group": 8, 
+            "id": "android-323a4675f01ccf57"
+        }, 
+        {
+            "group": 6, 
+            "id": "CowNano-Moti-579079606.mesh.local"
         }
     ]
 }

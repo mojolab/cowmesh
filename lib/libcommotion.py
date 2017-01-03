@@ -44,7 +44,6 @@ class CommotionCOWHerd(COWHerd):
 	def gw_get_dhcp_leases(self,host,user="root"):
 		print colored("Getting DHCP leases from host ","yellow"),colored(host,"cyan")
 		gatewayleases=self.runremote('cat /var/dhcp.leases',host,user).split("\n")
-		print gatewayleases
 		if gatewayleases:
 			if '' in gatewayleases:
 				gatewayleases.remove('')	
@@ -155,8 +154,6 @@ class CommotionCOWHerd(COWHerd):
 								linkdict['target']=self.gw_lookup_hostname(route['gateway'])
 								if linkdict not in self.config['graph']['links']:
 									self.config['graph']['links'].append(linkdict)
-								else:
-									print "Not adding"
 				if "leases" in gw.keys():
 					for lease in gw['leases']:
 						if 'name' in lease.keys():
