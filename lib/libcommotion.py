@@ -65,6 +65,7 @@ class CommotionCOWHerd(COWHerd):
 	def gw_get_active_dhcp_clients(self,host,user="root"):
 		print colored("Getting active dhcp clients from host ","yellow"),colored(host,"cyan")
 		leases=self.gw_get_dhcp_leases(host)
+		#print leases
 		activeclients=[]
 		for lease in leases:
 			if self.is_up(lease['addr']):
@@ -164,14 +165,9 @@ class CommotionCOWHerd(COWHerd):
 								linkdict['target']=lease['name']
 								if linkdict not in self.config['graph']['links']:
 									self.config['graph']['links'].append(linkdict)
-								else:
-									print "Not adding"
+								
 		self.save_config()
-	def gw_lookup_hostname(self,host):
-		for gw in self.config['gateways']:
-			if host in gw['addr']:
-				return gw['hostname']
-		return False		
+		
 	def build_graph(self):
 		self.graph_add_nodes()
 		self.graph_add_links()
@@ -223,13 +219,14 @@ class CommotionCOWHerd(COWHerd):
 
 	def get_client_report(self):
 		print colored("Getting clients from all known gateways...","yellow")
-		self.update_gw_leases()
+		self.update_gw_clients()
 		numclients=0
 		for gw in self.config['gateways']:
 			print colored("Looking for live clients on "+gw['addr'][0]+" "+gw['hostname']+": ","yellow")
 			if "leases" in gw.keys():
 				for lease in gw['leases']:
 					if self.is_up(lease['addr']):
+						print "Checking if %s is up" %lease['addr']
 						numclients+=1
 		print colored("Total clients: ","yellow"),colored(str(numclients),"green")
 	
@@ -247,3 +244,13 @@ class CommotionCOWHerd(COWHerd):
 		self.build_graph()
 		self.update_graph()
 		
+	def run_all_commotion(self, command):
+		hostdict=[]
+		for gw in self.config['gateways']:
+			if "commotion" in gw.keys() and gw['commotion']==True:
+				gwdict={}
+				gwdict['addr']=gw['addr'][0]
+				gwdict['user']="root"
+				hostdict.append(gwdict)
+		op=self.runremotemulti(command,hostdict)
+		return op

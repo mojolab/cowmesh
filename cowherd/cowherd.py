@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import click
+from termcolor import colored
 import sys,datetime
 sys.path.append("../lib")
 from libcommotion import *
@@ -9,7 +10,6 @@ from libcommotion import *
 
 @click.pass_context
 def cli(ctx, debug):
-    click.clear()
     click.secho("Cowherd running...",fg="green")
     cowherd=ctx.obj
 
@@ -101,6 +101,26 @@ def runremote(ctx,command,host,user):
 	click.secho("---------------------------------------------------------------------",fg="yellow")
 	click.echo(op)
 	click.secho("---------------------------------------------------------------------",fg="yellow")
+
+@click.argument("command",nargs=1)
+@click.option('--raw', is_flag=True)
+@cli.command()
+@click.pass_context
+def runallcommotion(ctx,command,raw):
+	print colored("Running command on multiple systems","yellow")
+	op=cowherd.run_all_commotion(command)
+	if op==None:
+		print colored("No output","red")
+		sys.exit(0)
+	if raw:
+		print get_color_json({"output":op})
+		sys.exit(0)
+	for hostop in op:
+		pline=colored("Address: ", "yellow")+colored(hostop['addr'],"cyan")+"\n"+colored("Hostname: ","yellow")+colored(hostop['hostname'],"cyan")+"\n"+colored(hostop['output'],"green")
+		print pline
+
+
+
 @click.argument("user",nargs=1,default="root")
 @click.argument("host",nargs=1)
 

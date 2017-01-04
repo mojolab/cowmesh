@@ -72,6 +72,11 @@ class COWHerd:
 		output=os.popen("ssh -oNumberOfPasswordPrompts=0 -oConnectTimeout=10 %s@%s '%s'" %(user,host,command)).read().strip()
 		return output
 	
+	def gw_lookup_hostname(self,host):
+		for gw in self.config['gateways']:
+			if host in gw['addr']:
+				return gw['hostname']
+		return False
 		
 	def is_up(self,host):
 		print colored("Checking if ","yellow"),colored(host,"cyan"),colored(" is up...","yellow")
@@ -88,6 +93,14 @@ class COWHerd:
 		else:
 			return False
 	def runremotemulti(self,command,hostdict):
+		output=[]
 		for host in hostdict:
-			self.runremote(command,host['ip'],host['user'])
-	
+			op=self.runremote(command,host['addr'],host['user'])
+			hostop={}
+			hostop['addr']=host['addr']
+			hostop['hostname']=self.gw_lookup_hostname(host['addr'])
+			hostop['output']=op
+			output.append(hostop)
+			#print op
+		#print output
+		return output
