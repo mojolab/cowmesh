@@ -25,5 +25,4 @@ c.worksheets.append(inlinkssheet)
 c.worksheets.append(outlinkssheet)
 c.worksheetnames.append("Internal LInks")
 c.worksheetnames.append("External LInks")
-
 c.exportfile("/home/arjun/ETLinks.xlsx")
