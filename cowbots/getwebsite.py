@@ -5,7 +5,7 @@ import urllib2,urlparse
 import sys,os
 sys.path.append("/opt/livingdata/lib")
 from livdatcsvlib import *
-baseurl="http://environicsindia.in"
+baseurl=sys.argv[1]
 webcontent=urllib2.urlopen(baseurl).read()
 soup = BeautifulSoup(webcontent,'html.parser')
 links=[]
@@ -107,4 +107,4 @@ c.worksheets.append(outlinkssheet)
 c.worksheetnames.append("Internal LInks")
 c.worksheetnames.append("External LInks")
 
-c.exportfile("/home/arjun/ETLinks.xlsx")
+c.exportfile(sys.argv[2])
