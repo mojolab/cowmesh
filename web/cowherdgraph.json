@@ -7,7 +7,7 @@
         }, 
         {
             "source": "CowRocket-Kalu-1359113316.mesh.local", 
-            "target": "CowRocket-Misty-1359126363.mesh.local", 
+            "target": "10.108.100.54", 
             "value": 3
         }, 
         {
@@ -17,17 +17,17 @@
         }, 
         {
             "source": "CowRocket-Kalu-1359113316.mesh.local", 
-            "target": "android-c192eea6583f9f7e", 
+            "target": "CowRocket-Misty-1359126363.mesh.local", 
+            "value": 3
+        }, 
+        {
+            "source": "CowRocket-Kalu-1359113316.mesh.local", 
+            "target": "android-9e4744257687f4d6", 
             "value": 1
         }, 
         {
             "source": "CowRocket-Kalu-1359113316.mesh.local", 
-            "target": "android-7bddb1fab544fbcd", 
-            "value": 1
-        }, 
-        {
-            "source": "CowRocket-Kalu-1359113316.mesh.local", 
-            "target": "avghat", 
+            "target": "spicy", 
             "value": 1
         }, 
         {
@@ -42,12 +42,12 @@
         }, 
         {
             "source": "CowRocket-Kalu-1359113316.mesh.local", 
-            "target": "Galaxy-S6-edge", 
+            "target": "avghat", 
             "value": 1
         }, 
         {
             "source": "CowRocket-Kalu-1359113316.mesh.local", 
-            "target": "android-9e4744257687f4d6", 
+            "target": "android-7bddb1fab544fbcd", 
             "value": 1
         }, 
         {
@@ -56,23 +56,13 @@
             "value": 3
         }, 
         {
+            "source": "10.108.100.54", 
+            "target": "192.168.43.1", 
+            "value": 3
+        }, 
+        {
             "source": "CowRocket-Misty-1359126363.mesh.local", 
             "target": "CowRocket-Kalu-1359113316.mesh.local", 
-            "value": 3
-        }, 
-        {
-            "source": "CowRocket-Misty-1359126363.mesh.local", 
-            "target": "CowTPLink-Gateway-661814570.mesh.local", 
-            "value": 3
-        }, 
-        {
-            "source": "CowRocket-Misty-1359126363.mesh.local", 
-            "target": "CowRocket-Fuchka-1359124800.mesh.local", 
-            "value": 3
-        }, 
-        {
-            "source": "CowTPLink-Gateway-661814570.mesh.local", 
-            "target": "CowRocket-Misty-1359126363.mesh.local", 
             "value": 3
         }
     ], 
@@ -91,19 +81,19 @@
         }, 
         {
             "group": 6, 
+            "id": "10.108.100.54"
+        }, 
+        {
+            "group": 6, 
             "id": "CowRocket-Misty-1359126363.mesh.local"
         }, 
         {
             "group": 8, 
-            "id": "android-c192eea6583f9f7e"
-        }, 
-        {
-            "group": 8, 
-            "id": "android-7bddb1fab544fbcd"
+            "id": "android-9e4744257687f4d6"
         }, 
         {
             "group": 4, 
-            "id": "avghat"
+            "id": "spicy"
         }, 
         {
             "group": 8, 
@@ -115,15 +105,15 @@
         }, 
         {
             "group": 4, 
-            "id": "Galaxy-S6-edge"
+            "id": "avghat"
         }, 
         {
             "group": 8, 
-            "id": "android-9e4744257687f4d6"
+            "id": "android-7bddb1fab544fbcd"
         }, 
         {
             "group": 6, 
-            "id": "CowTPLink-Gateway-661814570.mesh.local"
+            "id": "192.168.43.1"
         }
     ]
 }
