@@ -17,7 +17,7 @@ if __name__=="__main__":
     subdict['TIMESTAMP']=timestamp.strftime("%Y-%b-%d %H:%M:%S")
     subdict['MOJOMAIL']="COWHerd Report"
     subdict['TYPE']="BalanceUpdate"
-    bodydict['CONTENT']=os.popen("fortune").read().strip()
+    bodydict['CONTENT']=os.popen("python checkmodembal.py").read().strip()
     msg=messager.composemessage(mailer.outusername,subdict,bodydict,"")
     mailer.sendmsg(msg)
 				
