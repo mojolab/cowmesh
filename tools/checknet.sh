@@ -1,4 +1,3 @@
 #!/bin/bash
-
 cd /opt/cowmesh/tools
-python mailmodembalance.py
+sudo python checknet.py
