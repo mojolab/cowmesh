@@ -15,7 +15,7 @@ if __name__=="__main__":
     timestamp=datetime.datetime.now()
     print timestamp
     subdict['TIMESTAMP']=timestamp.strftime("%Y-%b-%d %H:%M:%S")
-    subdict['MOJOMAIL']="COWHerd Report"
+    subdict['MOJOMAIL']=mailer.name
     subdict['TYPE']="BalanceUpdate"
     bodydict['CONTENT']=os.popen("python checkmodembal.py").read().strip()
     msg=messager.composemessage(mailer.outusername,subdict,bodydict,"")
