@@ -14,14 +14,14 @@ if __name__=="__main__":
 		startmedia(primary)
 	else:
 		logging.info("Net is active...exiting")
-		exit()
+		sys.exit()
 	time.sleep(60)
 	if not internet():
 		logging.info("Attempting restart of secondary media")
 		startmedia(secondary)
 	else:
 		logging.info("Net is active...exiting")
-		exit()
+		sys.exit()
 	time.sleep(60)
 	if not internet():
 		logging.warning("Could not start internet")
