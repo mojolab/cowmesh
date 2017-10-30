@@ -1,6 +1,6 @@
 import sys,os
 sys.path.append("../lib")
-from cowherdutils import *
+from libcowherdutils import *
 
 
 if __name__=="__main__":
