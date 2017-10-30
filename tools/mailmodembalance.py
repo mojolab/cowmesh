@@ -23,7 +23,7 @@ if __name__=="__main__":
 	balenq=os.popen("python checkmodembal.py").read().strip()
 	bodydict['CONTENT']=balenq
 	logging.info(balenq)
-	msg=messager.composemessage(mailer.outusername,subdict,bodydict,"")
+	msg=messager.composemessage(mailer.outusername,subdict,bodydict,"/opt/cowherd.log")
 	mailer.sendmsg(msg)
 	logging.info("Sent balance update")
 				
