@@ -6,7 +6,7 @@ from datetime import *
 sys.path.append("/opt/mojomailman/mojomail")
 from mojomail import *
 if __name__=="__main__":
-    mailconfig="/opt/cowmail/mail.conf"
+    mailconfig="/opt/cowconf/mail.conf"
     mailer=MojoMailer(mailconfig)
     #mailer.logintoinmail()
     messager=MojoMessager(mailconfig)
