@@ -3,7 +3,7 @@
 import sys,os
 from datetime import *
 sys.path.append("../lib")
-from libcowherdutil import *
+from libcowherdhsutil import *
 
 sys.path.append("/opt/mojomailman/mojomail")
 from mojomail import *
