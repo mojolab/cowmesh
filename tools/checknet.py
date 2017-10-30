@@ -11,9 +11,9 @@ if __name__=="__main__":
 	secondary=config.get("ISP","secondary")
 	if not internet():
 		logging.info("Attempting restart of primary media")
-        startmedia(primary)
-    time.sleep(60)
-    if not internet():
-        logging.info("Attempting restart of primary media")
-        startmedia(secondary)
+		startmedia(primary)
+	time.sleep(60)
+	if not internet():
+		logging.info("Attempting restart of primary media")
+		startmedia(secondary)
 
